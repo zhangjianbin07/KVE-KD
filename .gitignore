@@ -113,7 +113,6 @@ w
 /det_create/
 /analysis
 /doc/
-/alignkd.pdf
 /Dockerfile
 /.dockerignore
 /run_kve_kd.sh
