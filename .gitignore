@@ -1,0 +1,122 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Framework-generated files
+local_settings.py
+db.sqlite3
+instance/
+.webassets-cache
+.scrapy
+celerybeat-schedule
+*.sage.py
+
+# Documentation builds
+docs/en/_build/
+docs/zh_cn/_build/
+/site
+
+# Tooling
+target/
+.ipynb_checkpoints
+.python-version
+.mypy_cache/
+.spyderproject
+.spyproject
+.ropeproject
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Editors
+.vscode
+.idea
+.DS_Store
+
+# Project artifacts
+/data/
+outputs
+results/
+experiments/
+work_dirs/
+wandb/
+tb_logger/
+*.log
+*.pkl
+*.pkl.json
+*.log.json
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.py~
+*.sh~
+docs/modelzoo_statistics.md
+mmdet/.mim
+w
+
+# Private and local-only content
+/bak_py/
+/det_create/
+/analysis
+/doc/
+/alignkd.pdf
+/Dockerfile
+/.dockerignore
+/run_kve_kd.sh
+
+# Analysis code deferred to a later release
+/scripts/analysis/
