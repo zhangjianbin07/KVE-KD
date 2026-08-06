@@ -4,8 +4,6 @@ Key Visual Evidence-guided Knowledge Distillation (KVE-KD) dynamically focuses
 knowledge transfer on task-relevant visual evidence identified by the teacher
 model, without introducing inference-time overhead.
 
-![KVE-KD framework](figures/KVE-KD.png)
-
 ## Environment
 
 The tested environment uses Linux, Python 3.10, CUDA 11.8, PyTorch 2.4.1,
